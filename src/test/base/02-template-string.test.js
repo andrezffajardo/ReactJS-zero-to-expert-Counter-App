@@ -14,7 +14,7 @@ describe('Pruebas en 02-template-string.js', () => {
         expect( saludo ).toBe( 'Hi ' + nombre + '!');
     });
 
-    // getSaludo debe etornar Hi Pipe! si no hay argumento en nombre
+    // getSaludo debe retornar Hi Pipe! si no hay argumento en nombre
     test('getSaludo debe retornar Hi Pipe!', () => {
 
         const saludo = getSaludo();
