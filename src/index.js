@@ -9,4 +9,4 @@ const divRoot = document.querySelector('#root');
 
 //ReactDOM.render( <FirstApp greet="Hi World"/>, divRoot );
 
-ReactDOM.render( <CounterApp value={ 0 }/>, divRoot );
+ReactDOM.render( <CounterApp value={ 10 }/>, divRoot );
