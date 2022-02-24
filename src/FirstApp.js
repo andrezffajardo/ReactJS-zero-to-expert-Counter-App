@@ -6,7 +6,7 @@ const FirstApp = ( { greet, subtittle } ) => {
     return (
         <>
             <h1> { greet } </h1>
-            <p> { subtittle }</p>
+            <p>{ subtittle }</p>
         </>
 
     );
